@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="DashboardController" prefWidth="600" prefHeight="400">
+    <left>
+        <ListView fx:id="bookList" prefWidth="200"/>
+    </left>
+    <center>
+        <TextArea fx:id="bookContent" wrapText="true" editable="false"/>
+    </center>
+</BorderPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="NewBookController" spacing="10" alignment="CENTER" prefWidth="400" prefHeight="300" padding="20">
+    <Label text="Add New Book" style="-fx-font-size: 18px;"/>
+    <TextField fx:id="titleField" promptText="Enter Book Title" maxWidth="300"/>
+    <TextArea fx:id="contentArea" promptText="Enter Book Content" prefHeight="150" maxWidth="300" wrapText="true"/>
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Save Book" onAction="#saveBook"/>
+        <Button text="Cancel" onAction="#cancel"/>
+    </HBox>
+    <Label fx:id="messageLabel" textFill="green"/>
+</VBox>

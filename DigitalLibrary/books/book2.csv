@@ -1,0 +1,14 @@
+Basics of Data Structures
+Data structures are a way of organizing and storing data so that they can be accessed and worked with efficiently.
+Common data structures include arrays, linked lists, stacks, queues, trees, and graphs.
+
+Arrays are collections of elements identified by index or key, stored in contiguous memory locations.
+Linked lists consist of nodes where each node contains data and a reference to the next node in the sequence.
+
+Stacks follow Last-In-First-Out (LIFO) principle and are used for tasks such as expression evaluation and backtracking.
+Queues follow First-In-First-Out (FIFO) principle and are used in scenarios like order processing and scheduling.
+
+Trees are hierarchical data structures with a root node and child nodes, commonly used in database indexing and file systems.
+Graphs consist of nodes (vertices) connected by edges and are useful for representing networks such as social connections or routing paths.
+
+Understanding data structures is fundamental to designing efficient algorithms and solving complex problems effectively.
